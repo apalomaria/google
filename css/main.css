@@ -143,3 +143,37 @@ a.button.hover {
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+@media (max-width:640px) {
+  .search-box input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 522px) {
+  .right-site-links, .left-site-links {
+    margin: 5px 20%;
+    text-align: center;
+  }
+}
+
+@media (max-width:428px) {
+  .share-button,
+  .profile-img {
+    display: none;
+  }
+  .top-navigation {
+    text-align: center;
+  }
+  .top-navigation li{
+    font-size: 25px;
+  }
+  .right-site-links, .left-site-links {
+    margin: 5px 15%;
+    text-align: center;
+}
+@media (min-width:350px){
+  * {
+    
+  }
+}
