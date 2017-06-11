@@ -157,7 +157,7 @@ a.button.hover {
   }
 }
 
-@media (max-width:428px) {
+@media (max-width:443px) {
   .share-button,
   .profile-img {
     display: none;
@@ -170,10 +170,11 @@ a.button.hover {
   }
   .right-site-links, .left-site-links {
     margin: 5px 15%;
-    text-align: center;
+        text-align: center;
 }
-@media (min-width:350px){
-  * {
-    
+
+@media (max-width:383px) {
+  .right-site-links {
+    display: none;
   }
 }
